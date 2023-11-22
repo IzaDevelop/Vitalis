@@ -7,12 +7,6 @@ import ScrollToTop from "./ScrollToTop";
 
 import { Home } from "../pages/private/Home";
 
-import { Login } from "../pages/public/Login";
-import { Register } from "../pages/public/Register";
-import { RegisterConfirm } from "../pages/public/RegisterConfirm";
-import { ForgotPassword } from "../pages/public/ForgotPassword";
-import { ResetPassword } from "../pages/public/ResetPassword";
-
 export function Router() {
     const { loadingScreen } = useAppContext()
 
@@ -23,11 +17,6 @@ export function Router() {
                     <Route path="*" element={<Navigate replace to="/" />} />
 
                     {/* <Route element={<PublicRoute />}> */}
-                        <Route path="/login" element={<Login />} />
-                        <Route path="/register" element={<Register />} />
-                        <Route path="/register-confirm" element={<RegisterConfirm />} />
-                        <Route path="/forgot-password" element={<ForgotPassword />} />
-                        <Route path="/reset-password" element={<ResetPassword />} />
                     {/* </Route>
 
                     <Route element={<PrivateRoute />}> */}
