@@ -5,3 +5,16 @@
 * {
     scroll-behavior: smooth;
 }
+
+div.powered-by{
+    display: none !important;
+}
+
+.ch-text-primary {
+    color: #dc2626 !important;
+}
+
+.sm\:ch-text-base {
+    line-height: 2rem !important;
+    background-color: #dc2626 !important;
+}
