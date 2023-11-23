@@ -19,7 +19,8 @@ div.powered-by{
     color: #dc2626 !important;
 }
 
-.data-\[state\=on\]\:ch-bg-primary[data-state=on] {
+.data-\[state\=on\]\:ch-bg-primary[data-state=on],
+.ch-bg-primary {
 background-color: #dc2626 !important;
 }
 
