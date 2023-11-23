@@ -10,8 +10,17 @@ div.powered-by{
     display: none !important;
 }
 
+.ch-transition {
+    background-color: #fff !important;
+    border-radius: 3px !important; 
+}
+
 .ch-text-primary {
     color: #dc2626 !important;
+}
+
+.data-\[state\=on\]\:ch-bg-primary[data-state=on] {
+background-color: #dc2626 !important;
 }
 
 .sm\:ch-text-base {
